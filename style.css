@@ -1,0 +1,90 @@
+.quiz-bar{
+    width:200px;
+    height:20px;
+    background-color: yellow;
+    
+}
+
+.quiz-bar-fill{
+    height:100%;
+    background-color: #4CAF50;
+    width:0;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Set background color for the entire page */
+}
+
+.left {
+    float: left;
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+}
+
+.right {
+    float: right;
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+}
+
+h1 {
+    color: #333; /* Set heading color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.quiz-bar {
+    width: 100%; /* Adjust width as needed */
+    height: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+}
+
+.quiz-bar-fill {
+    height: 100%;
+    background-color: #4CAF50; /* Green fill color */
+    width: 0;
+    border-radius: 10px; /* Rounded corners */
+}
+
+#submit {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
